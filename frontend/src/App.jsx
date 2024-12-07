@@ -1,9 +1,11 @@
-import ArticleListElement from "./components/article";
+import ArticleList from "./components/list";
 
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <div className="container mx-auto px-4 bg-slate-400 h-screen">
+        <ArticleList />
+      </div>
     </>
   );
 }
